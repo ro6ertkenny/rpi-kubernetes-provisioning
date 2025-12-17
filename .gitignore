@@ -1,0 +1,13 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Secrets
+.env
+*.key
+*.pem
