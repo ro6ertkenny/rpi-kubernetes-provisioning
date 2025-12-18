@@ -6,6 +6,14 @@ It is intended as a practical reference for building, operating, and understandi
 
 ---
 
+## Cluster Overview
+
+![Raspberry Pi Kubernetes Cluster](images/pi-cluster.jpg)
+
+Physical Raspberry Pi Kubernetes cluster used throughout this repository.
+
+---
+
 ## Project Goals
 
 - Provision Raspberry Pi devices using a clean, minimal Linux installation
