@@ -3,6 +3,8 @@
 Thumbs.db
 *.swp
 *.swo
+*~
+*.bak
 
 # Logs
 *.log
@@ -11,3 +13,12 @@ Thumbs.db
 .env
 *.key
 *.pem
+kubeconfig
+*.kubeconfig
+
+# Language/runtime noise
+__pycache__/
+*.pyc
+
+# Linux temp
+.nfs*
