@@ -2,4 +2,5 @@
 
 *Coming soon*
 
-Documentation for cluster networking configuration and behavior.
+Documentation covering worker node configuration, joining procedures, kubelet
+behavior, container runtime integration, and operational considerations.
