@@ -59,6 +59,10 @@ Detailed hardware inventory and version-specific configuration notes are documen
 - 📄 **[Hardware Overview](docs/hardware.md)** — Physical cluster components, power,
   cooling, networking, and headless build details
 
+- ⚙️ **[Environment Configuration](docs/environment.md)** — Operating system,
+  kernel, container runtime, Kubernetes versions, static networking, DNS,
+  and kubeconfig setup
+
 ---
 
 ## Repository Structure
