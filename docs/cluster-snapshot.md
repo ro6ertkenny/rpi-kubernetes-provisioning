@@ -1,4 +1,4 @@
-# 📌 Cluster Snapshot (Baseline) ☸️
+#  Cluster Snapshot (Baseline) ☸️
 
 This document captures a baseline snapshot of cluster health and core components.  
 It is intended for quick verification, troubleshooting, and future change tracking.
@@ -7,7 +7,7 @@ It is intended for quick verification, troubleshooting, and future change tracki
 
 ---
 
-## 🧭 Cluster Endpoints
+##  Cluster Endpoints
 
 ```text
 Kubernetes control plane:
@@ -19,7 +19,7 @@ https://192.168.1.116:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/p
 
 ---
 
-## 🧱 Nodes
+##  Nodes
 
 _Output of `kubectl get nodes -o wide`_
 
@@ -33,7 +33,7 @@ rpi-worker3   Ready    <none>          2d22h   v1.31.14   192.168.1.118   <none>
 
 ---
 
-## 🧩 System Pods
+##  System Pods
 
 _Output of `kubectl get pods -A`_
 
@@ -58,7 +58,7 @@ kube-system   kube-scheduler-rpi-master                 1/1     Running   3 (29h
 
 ---
 
-## ✅ Health Interpretation
+##  Health Interpretation
 
 - All nodes report **Ready**
 - Control plane components are healthy:
