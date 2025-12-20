@@ -54,14 +54,15 @@ Detailed hardware inventory and version-specific configuration notes are documen
 
 ---
 
-## Documentation
+## Documentation (Canonical)
 
-- 📄 **[Hardware Overview](docs/hardware.md)** — Physical cluster components, power,
-  cooling, networking, and headless build details
+Canonical documentation for this cluster lives in **kai-memory-palace**:
 
-- ⚙️ **[Environment Configuration](docs/environment.md)** — Operating system,
-  kernel, container runtime, Kubernetes versions, static networking, DNS,
-  and kubeconfig setup
+- 📄 **[Pi Cluster Hardware](https://github.com/ro6ertkenny/kai-memory-palace/blob/main/k8s/ops%2Bprovisioning/rpi-cluster/pi-cluster-hardware.md)** — Physical cluster components, power, cooling, networking, and headless build details
+
+- ⚙️ **[Pi Cluster Environment](https://github.com/ro6ertkenny/kai-memory-palace/blob/main/k8s/ops%2Bprovisioning/rpi-cluster/pi-cluster-environment.md)** — OS, kernel, container runtime, Kubernetes versions, static networking, DNS, and kubeconfig setup
+
+- 🧾 **[Pi Cluster Snapshot](https://github.com/ro6ertkenny/kai-memory-palace/blob/main/k8s/ops%2Bprovisioning/rpi-cluster/pi-cluster-snapshot.md)** — Node inventory, roles, IPs, and current cluster state reference
 
 ---
 
